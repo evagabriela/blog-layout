@@ -1,6 +1,14 @@
 /* ----------------------------------------
 Base Styles
 ------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	margin: 0;
+}
 
 /* ----------------------------------------
 Typography
@@ -10,15 +18,49 @@ Typography
 /* ----------------------------------------
 Lists
 ------------------------------------------- */
+ul{
+	list-style: none;
+}
+
 
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
 
 /* ----------------------------------------
+Nav
+------------------------------------------- */
+nav {
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+    right: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #7B98AA;
+	padding: 3px 60px;
+}
+
+
+
+/* ----------------------------------------
 Header
 ------------------------------------------- */
-
+header {
+	padding-top: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../images/blog_header_bg.jpg');
+	background-attachment: fixed;
+	height: 100vh;
+}
 /* ----------------------------------------
 Footer
 ------------------------------------------- */

@@ -1,3 +1,3 @@
 # blog-layout
 
-![Mockup](monument_blog_pt2.png "Final Mockup")
+![Mockup](blog.png "Final Mockup")
