@@ -6,6 +6,7 @@ Base Styles
 }
 
 body {
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	margin: 0;
 }
@@ -13,7 +14,9 @@ body {
 /* ----------------------------------------
 Typography
 ------------------------------------------- */
-
+h1 {
+	font-size: 37.5px;
+}
 
 /* ----------------------------------------
 Lists
@@ -26,6 +29,12 @@ ul{
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
+.vertical-center {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
 
 /* ----------------------------------------
 Nav
@@ -61,6 +70,17 @@ header {
 	background-attachment: fixed;
 	height: 100vh;
 }
+
+header h1 {
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+}
+
+header a{
+	text-decoration: none;
+	color: #fff;
+}
+
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
