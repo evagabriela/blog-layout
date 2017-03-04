@@ -11,6 +11,10 @@ body {
 	margin: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* ----------------------------------------
 Typography
 ------------------------------------------- */
@@ -34,6 +38,33 @@ Layout
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.col-two {
+	width: 75%;
+}
+
+.col-third {
+	width: 25%;
+}
+
+section {
+	text-align: left;
+	padding: 0 30px 55px 30px;
+}
+
+aside {
+	text-align: left;
+    padding: 48px 30px 0 0;
 }
 
 /* ----------------------------------------
@@ -69,6 +100,8 @@ header {
 	background-image: url('../images/blog_header_bg.jpg');
 	background-attachment: fixed;
 	height: 100vh;
+	background-position: center;
+	margin-bottom: 60px;
 }
 
 header h1 {
