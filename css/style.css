@@ -72,25 +72,6 @@ section {
 	padding: 0 30px 55px 30px;
 }
 
-aside {
-	text-align: left;
-    padding: 48px 30px 0 0;
-}
-	
-aside img {
-	padding: 32px 0;
-}
-
-aside li {
-	text-align: left;
-	padding-bottom: 1.1em;
-}
-
-aside a {
-	color: #7B98AA;
-	font-weight: 600;
-	text-decoration: none;
-}
 
 /* ----------------------------------------
 Nav
@@ -147,15 +128,117 @@ header a{
 Footer
 ------------------------------------------- */
 
+footer {
+	background-color: #CDF3F6;
+	overflow: auto;
+	padding: 30px 15px;
+}
+
+.social-media {
+	margin-bottom: 30px;
+}
+
+.social-media a{
+	font-size: 30px;
+	color: #44545E;
+	padding: 15px;
+}
+
+.social-media a:hover{
+	color: white;
+	font-weight: 600;
+}
+
+footer input {
+	margin: 0 30px 12px 0;
+	padding: 11px 10px;
+	width: 300px;
+	border: 0;
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-ms-input-placeholder {
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+.copyright {
+	border-top: 2px solid #44545E;
+	padding: 15px 0 3px;
+}
 /* ----------------------------------------
 Aside
 ------------------------------------------- */
+aside {
+	text-align: left;
+    padding: 48px 30px 0 0;
+}
+	
+aside img {
+	padding: 32px 0;
+}
 
-/* ----------------------------------------
-Articles
-------------------------------------------- */
+aside li {
+	text-align: left;
+	padding-bottom: 1.1em;
+}
+
+aside a {
+	color: #7B98AA;
+	font-weight: 600;
+	text-decoration: none;
+}
+
 
 
 /* ----------------------------------------
 Buttons
 ------------------------------------------- */
+
+button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 8px 25.5px;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 1.2px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+	font-weight: 600;
+}
